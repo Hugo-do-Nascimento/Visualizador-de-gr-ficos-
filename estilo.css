@@ -1,0 +1,45 @@
+body {
+    background-color: #f0f0f0; /* Cor de fundo da página */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.LabTp, .LabOp {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.TipoGraf, .csvFile {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.botao {
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #0056b3; /* Cor de fundo do botão quando hover */
+}
